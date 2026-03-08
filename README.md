@@ -13,6 +13,7 @@ Severidade (Crítico / Alto / Médio / Baixo): Baixo
 Prioridade (Alta / Média / Baixa): Baixa
 
 Tela criação de conta
+
 2. Título: Caixa de preenchimento vazado
 Descrição: Quando em tela cheia, a caixa de preenchimento não está se adaptando ao espaço em caixa branca, centralizada na tela.
 Passos para reproduzir: Ao abrir a tela de Criar conta, o layout já lista fora do padrão. Mas ao abrir o inspecionar, identificado que a partir da resolução 638.40px x 703.20, os campos estão no tamanho padrão.
@@ -47,6 +48,7 @@ Severidade (Crítico / Alto / Médio / Baixo): Alto
 Prioridade (Alta / Média / Baixa): Alto
 
 Tela simples de sucesso
+
 6. Título: Erro inesperado_1
 Descrição: Ao realizar login, apresentou flag Erro inesperado
 Passos para reproduzir: Na tela de login, após cadastro de conta, inserido e-mail e senha ana12345
@@ -64,16 +66,19 @@ Severidade (Crítico / Alto / Médio / Baixo): Crítico
 Prioridade (Alta / Média / Baixa): Alta
 
 Resultado final
+
 8. Quais 2 bugs você corrigiria primeiro e por quê?
+   
 Bug 4 e 7.
 Ambos foram classificados como Severidade Crítico e prioridade Alta.
 O erro 4 afeta principalmente segurança da plataforma, integração com api, ou seja, não foi realizado uma correta construção de back-end.
 O erro 7, por não apresentar o motivo de erro, dificulta de realizar leitura do erro, de aplicar suporte ou correção, sendo obrigada a realizar debug de todo back-end.
 
 9. Caso tenha, coloque suas sugestões de melhorias para essas telas.
+    
 Inicialmente, aplicaria melhoria de inserir a flag de erro para o topo da tela, canto direito. De acordo com UX, é o caminho mais "fácil" do usuário visualizar, por hábito de demais aplicações esse layout.
 
-## Vídeo teste 2:
+## Vídeo BUG 2:
 
 https://github.com/user-attachments/assets/ff2853c2-91b1-446a-97bf-98d839eacb09
 
